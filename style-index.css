@@ -1,0 +1,543 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #f7f7f7;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 9px;
+}
+
+::-webkit-scrollbar-track {
+    background: #bdb9b9a6;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background-color: #0b5dd781;
+    border-radius: 80px;
+}
+
+.titleshadow {
+    text-shadow: #0000002c 1px 1px 12px;
+}
+
+.titles{
+    font-size: 5.5rem;
+}
+
+/* For Navbar */
+.myLogo {
+    font-family: 'Sacramento', cursive;
+    font-size: 3.43rem;
+    color: black;
+}
+
+.myLogo:hover {
+    color: rgba(0, 0, 0, 0.568);
+}
+
+/* For into page */
+.myText {
+    width: 25.5rem;
+    margin:auto 0px;
+    justify-content: space-between;
+}
+
+.main {
+    align-items: center;
+}
+
+.mymargin{
+    margin-top: 9rem;
+    padding-bottom: 9rem;
+}
+
+.circlepicture {
+    margin-left: 10rem;
+}
+
+/* My, Myself, & I */
+.cropedheadshot {
+    height: 22rem;
+    margin-left: 7rem;
+    border-radius: 1.2rem;
+}
+
+.mymyselfmiddle section {
+ background-color: #F7F7F7;
+}
+
+.mymyselfspacing {
+    margin: 6rem 0;
+}
+
+.mymyselfmiddle {
+    padding-top: 4rem;
+}
+
+.mymyselfquote {
+    color: #E0ECF1;
+}
+
+.mymyselficon {
+    font-size: 2rem;
+    padding-left: 0.3rem;
+    display: inline;
+}
+
+/* Cards */
+.mycardsposition {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{
+    height: 100%;
+    border-radius: 25px;
+    box-shadow: #28282827 1px 1px 15px;
+}
+
+.seaperchcard {
+    margin-bottom: 7rem;
+}
+
+.boyscoutcard {
+    margin-bottom: 2.7rem;
+}
+
+.nhdcard {
+    margin-bottom: 5.5rem;
+}
+
+.cardpicture {
+    border-radius: 25px 25px 0 0;
+}
+
+/* Laptop */
+.laptopPosition{
+    padding: 8rem 0;
+}
+.laptop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.outerScreen {
+    height: 300px;
+    width: 400px;
+    background-color: #282828;
+    border-radius: 15px;
+}
+
+.screen {
+    position: relative;
+    top: 20px;
+    left: 10px;
+    height: calc(100% - 50px);
+    width: calc(100% - 20px);
+    border: 1px solid rgb(68, 68, 68);
+    background-color: white;
+}
+
+.screen img {
+    width: 100%;
+    height: 100%;
+}
+
+.bottomstrip {
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 24px;
+    width: 100px;
+    height: 15px;
+    border-top: 1px solid rgba(255, 255, 255, 0, 1);
+    border-radius: 0 0 15px 15px;
+}
+
+.laptop span {
+    position: relative;
+    bottom: 5px;
+    text-align: center;
+    font-size: 10px;
+    color: white;
+    margin: 0 auto;
+}
+
+.keyboard {
+    position: relative;
+    width: 500px;
+    height: 12px;
+    border-radius: 3px 3px 0 0;
+    background-color: #c0c0c0;
+    z-index: 1; 
+    bottom: 10px;
+}
+
+.notch {
+    width: 100px;
+    height: 6px;
+    background-color: #838181;
+    border-radius: 0 0 4px 4px;
+    margin-bottom: 6px;
+}
+
+.base {
+    position: relative;
+    bottom: 10px;
+    height: 10px;
+    width: 500px;
+    background-color: #adabab;
+    border-radius: 0 0 50% 50%;
+}
+
+/* about website */
+.aboutwebsite {
+    padding-top: 8rem;
+    
+}
+
+.textmywebsite {
+    width: 37rem;
+    background-color: #F7F7F7;
+}
+
+.mywebsiteposition {
+    margin: 0;
+}
+
+/* FLL portion */
+.underline h2 {
+    text-decoration: underline;
+    text-underline-offset: 0.27em;
+    text-decoration-thickness: 1.5px;
+}
+
+/* arrows */
+.firstarrow {
+    width: 300px;
+    margin-right: -6.25rem;
+    padding-top: 200px;
+}
+
+.secondarrow {
+    width: 200px;
+    height: 180px;
+    margin-top: 200px;
+    margin-left: -30px;
+}
+
+.lastarrow {
+    width: 200px;
+    height: 200px;
+    margin-right: 250px;
+    padding-top: 12px;
+}
+
+/* Whats FLL? */
+.whatsFLL {
+    width: 65rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.whatsFLL img {
+    width: 30rem;
+}
+
+.textwhatsFLL {
+    padding: 3rem;
+}
+
+/* Box */
+.mybox{
+    border-radius: 8px;
+    box-shadow: #28282827 1px 1px 15px;
+}
+
+/* Starting from the bottom */
+.startingbottom {
+    width: 40rem;
+    padding: 3rem;
+    background-color: white;
+}
+
+
+/* First Glimpse */
+.firstglimpse {
+    display: flex;
+    width: 70rem;
+    margin-left: auto;
+    background-color: white;
+}
+
+.textfirstglimpse {
+    width: 38rem;
+    padding: 5rem 3rem 0 3rem;
+}
+
+.curiousbutton {
+    padding-top: 1rem;
+}
+
+.intoorbitpicture {
+    padding: 3rem 0;
+    width: 28.125rem;
+    height: auto;
+}
+
+/* From team member to team leader */
+.teammember {
+    display: flex;
+    width: 81rem;
+    background-color: white;
+}
+
+.teammembertext {
+    width: 46rem;
+    padding: 3rem;
+}
+
+.cityshaperpicture {
+    width: 30rem;
+}
+
+.cityshaperbox {
+    padding: 3rem 0 3rem ;
+}
+
+/* Our legacy */
+.ourlegacy{
+    width: 30rem;
+    display: block;
+    padding: 3rem;
+    background-color: white;
+}
+
+/* SeaPerch */
+.seaperch-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+}
+
+.seaperch-grid h2 {
+    font-size: 2.3rem;
+}
+
+.team-competitng{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 3;
+    grid-column-end: 4; 
+}
+
+.challenge-course {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.seaperch-width {
+    width: 420px;
+    border-radius: 30px;
+    box-shadow: 2.5rem 3.75rem 3rem -3rem;
+}
+
+.grid-hard {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.grid-wait {
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+.SeaPerchpicture {
+    width: 321px;
+    border-radius: 10px;
+}
+
+.for-empty-grid-seaperch-pictures {
+    box-shadow: 2.5rem 3.75rem 3rem -3rem;
+    border-radius: 30px;
+}
+
+/* Boy Scouts */
+.boy-scouts-grid {
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    margin: 0 auto;
+}
+
+.boy-scouts-grid h2 {
+    font-size: 2.3rem;
+}
+
+.boy-scouts-grid article {
+    background-color: white;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    border-radius: 30px;
+}
+
+.ew-the-outdoors {
+    width: 30rem;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    margin: auto;
+}
+
+.cub-to-boy{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    margin: auto;
+}
+
+.my-leadership {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+.nine-years-later {
+    grid-column: span 2;
+    padding: 3rem 0;
+    padding-right: 4rem;
+}
+
+.nine-years-later img {
+    height: 300px;
+    margin: auto;
+}
+
+.nine-years-later-text {
+    padding: 0 4rem 0 5rem;
+    margin: auto;
+}
+
+.cub-to-boy,
+.my-leadership {
+    padding: 3rem;
+}
+
+.ew-the-outdoors p,
+.ew-the-outdoors h2,
+.ew-the-outdoors h5,
+.cub-to-boy h2,
+.cub-to-boy p,
+.my-leadership h2,
+.my-leadership p,
+.nine-years-later h2,
+.nine-years-later p {
+    text-align: center;
+}
+
+.boy-scouts-seabase-picture {
+    width: 350px;
+    text-align: center;
+}
+
+/* National History Day */
+.nhd img {
+    width: 30rem;
+    margin: auto;
+}
+
+.nhd:first-child {
+    background-color: white;
+    text-align: center;
+    padding: 3rem 0;
+    border-radius: 30px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+.nhd-text-width {
+    width: 60vh;
+    margin: auto;
+}
+
+/* github statement */
+.github {
+    color: rgba(0, 0, 0, 0.664);
+}
+
+.github a {
+    text-decoration: underline;
+    text-underline-offset: 0.27em;
+    text-decoration-thickness: 1.5px;
+    color: #0b5dd7ea;
+}
+
+/* Tablet Veiw */
+@media (max-width: 1200px) {    
+    .myText {
+        width: 24.0rem;
+        margin:auto auto;
+    }
+
+    .circlepicture {
+        margin: auto auto;
+    }
+
+    .card {
+        height: 15rem;
+    }
+
+    .aboutwebsite {
+        padding-top: 20rem;
+    }
+}
+
+/* medium veiw */
+@media (max-width: 991px) {
+    .smallveiw {
+        background-color: aliceblue;
+        border-radius: 20px;
+    }
+
+    .myText {
+        width: 24.0rem;
+        margin:auto;
+    }
+
+    .circlepicture {
+        margin: auto;
+    }
+}
+
+/* small veiw */
+@media (max-width: 770px) {
+    .smallveiw {
+        background: none;
+        border-radius: none;
+    }
+
+    .myText {
+        width: 24.0rem;
+        margin:auto;
+    }
+
+    .circlepicture {
+        margin: auto;
+    }
+
+    .mymyselfmiddle {
+        padding-top: 1rem;
+    }
+}
+
+
+
+
